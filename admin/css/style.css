@@ -1,0 +1,21 @@
+body{
+    background: #ffeaa7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+ul,li{
+    list-style: none;
+      
+}
+.link{
+    padding-left: 900px;
+}
+hr{
+    width: 60%;
+}
+.mydiv{
+    padding-right: 800px;
+}

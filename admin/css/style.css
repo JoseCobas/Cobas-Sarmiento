@@ -4,18 +4,48 @@ body{
     padding: 0;
     text-align: center;
     margin-top: 40px;
-}
+} 
+/* alla sidors style */ 
 
+/* ***************  style to index ****************/
 ul,li{
     list-style: none;
       
 }
 .link{
-    padding-left: 900px;
+    padding-left: 720px;
 }
 hr{
-    width: 60%;
+    width: 50%;
 }
 .mydiv{
-    padding-right: 800px;
+    padding-right: 650px;
+}
+
+/* *************** style to update ***************** */
+
+.inputs{
+    width: 50%;
+    height: 35px;
+}
+#tit{
+    height: 150px;   
+}
+.tittle{
+    padding-right: 730px;
+}
+#ct{
+    padding-right: 710px;
+}
+#at{
+    padding-right: 715px;
+}
+button{
+    width: 50%;
+    height: 35px;
+    font: black;
+    font-weight: bold;
+}
+.linkup{
+    padding-left: 700px;
 }

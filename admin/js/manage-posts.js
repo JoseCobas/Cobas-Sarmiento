@@ -1,4 +1,4 @@
-async function fetchallpuns(){
+/* async function fetchallpuns(){
     try{
         let response = await fetch('');
         let data     = resizeByponse.json();
@@ -6,4 +6,4 @@ async function fetchallpuns(){
 
         let pun
     }
-}
+} */

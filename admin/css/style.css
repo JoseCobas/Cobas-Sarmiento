@@ -65,6 +65,7 @@ table{
     border-collapse: collapse;   
 }
 table,td,th{
+    cursor: pointer;
     border: 1px solid black;
     padding: 10px;
 }

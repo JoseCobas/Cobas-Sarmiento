@@ -1,5 +1,5 @@
 body{
-    background: #ffeaa7;
+     background: #ffeaa7; 
     margin: 0;
     padding: 0;
     text-align: center;
@@ -48,4 +48,44 @@ button{
 }
 .linkup{
     padding-left: 700px;
+}
+
+
+/* **************** style to create ************************** */
+#container{
+    border: 1px solid black;
+    width: 50%;
+    margin: 150px auto;
+    margin-top: 10px;
+}
+table{
+    background: aliceblue;
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;   
+}
+table,td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+thead{
+    background-color: #55efc4;
+    border-bottom: 3px solid black;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:hover td{
+    background-color: #369681;
+    color: white;
+
+}
+#hbp{
+    margin-right: 590px;
+}
+.linkbp{
+    margin-left: 700px;      
+}
+.linkcp{
+    margin-left: 650px;       
 }

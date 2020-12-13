@@ -6,32 +6,34 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <a href="index.html">Blog page</a> <hr>
+    <a href="index.html" class="linkbp">Blog page</a> <hr>
 
-    <h2>Handle blog posts</h2>
-    <a href="">Create a new post</a> <br>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Title</th>
-                <th>Author</th>
-                <th>Date</th>
-                <th>Action</th>    
-            </tr>
-        </thead>       <br> <!-- el br este es solo para separar y entender el codigo -->
-        <tbody>   <!-- el codigo se ve regado pero en realidad el html esta bien colocado .esta regado por la combinacion del table -->
-            <tr>nombre del titulo</tr>
-            <tr>nombre del Author</tr>
-            <tr>fecha</tr>
-            <tr>
-                <a href="update-post.html">Update</a>
-                <a href="#">|Delete</a>
-            </tr>
+    <h2 id="hbp">Handle blog posts</h2>
+    <a href="" class="linkcp">Create a new post</a> <br>
 
 
-        </tbody>
-    </table>
+    <div id="container">
+        <table>
+            <thead>
+                <tr>
+                    <th><strong>Title</strong></th>  
+                    <th><strong>Author</strong></th>  
+                    <th><strong>Date</strong></th>  
+                    <th><strong>Action</strong></th>
+                </tr>
+            </thead>
+                <tr>
+                    <td>nombre del titulo</td> 
+                    <td>nombre del Author</td>
+                    <td>fecha</td>
+                    <td><a href="update-post.html">Update</a><a href="#">|Delete</a></td>
+                    
+                </tr>             
+        </table>
+       
+    </div>
+        
+       
     <script src="js/create-post.js"></script>
 </body>
 </html>

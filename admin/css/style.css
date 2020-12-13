@@ -21,6 +21,9 @@ hr{
 .mydiv{
     padding-right: 650px;
 }
+.container{
+    margin-left: -100px;
+}
 
 /* *************** style to update ***************** */
 

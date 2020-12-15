@@ -1,5 +1,5 @@
 body{
-     background: #ffeaa7; 
+      background: #ffeaa7; 
     margin: 0;
     padding: 0;
     text-align: center;
@@ -21,8 +21,9 @@ hr{
 .mydiv{
     padding-right: 650px;
 }
-.container{
+#form{
     margin-left: -100px;
+    font-size: larger;
 }
 
 /* *************** style to update ***************** */
